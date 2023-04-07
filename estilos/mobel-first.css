@@ -1,0 +1,89 @@
+/* MOBILE FIRST */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(181, 179, 179);
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*CABEÇALHO*/
+header {
+    background-color: rgb(181, 179, 179);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/* ICONE DE HAMBURGUER */
+span#hamburguer{ 
+    display: block;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /* tranforma o curso em uma maozinha quando passa pelo icone*/
+}
+
+span#hamburguer:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+/* MENU */
+menu{ /* remove o menu da tela pra ser animado com javasript*/
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none; /* tira os icones de lista */
+}
+
+menu > ul > li > a { /* links do menu */
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/* CONTEUDO PRINCIPAL */
+main {
+    width: 90vw; /* largura ocupa 90% da tela */
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    padding-bottom: 10px;
+    text-align: justify;
+    text-indent: 15px;
+}
